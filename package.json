@@ -37,6 +37,9 @@
     "moment": "^2.23.0",
     "terminal-kit": "^1.26.10"
   },
+  "scripts": {
+    "spray": "node index.js --origin ${REPO} --push --force --file patterns.json --multiplier 3"
+  },
   "logo": "https://i.imgur.com/2DrTn0Z.gif",
   "badge": "https://img.shields.io/badge/Made%20With-Github%20Spray-lightgrey.svg?style=for-the-badge&logo=github"
 }
